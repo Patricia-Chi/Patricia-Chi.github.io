@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/css/layout.css">
 
 		
-		<title> 文章归档 -  Patricia_Chi的博客</title>
+		<title> friends -  Patricia_Chi的博客</title>
 		<link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
 		<script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
 		<!-- lazyload -->
@@ -89,7 +89,7 @@
 		
 		<a
 			class="kira-list-item mdui-ripple false"
-			href="/about.html"
+			href="/about/"
 			title="关于本人"
 		>
 			<i
@@ -99,8 +99,8 @@
 		</a>
 		
 		<a
-			class="kira-list-item mdui-ripple false"
-			href="/friends.html"
+			class="kira-list-item mdui-ripple true"
+			href="/friends/"
 			title="我的朋友"
 		>
 			<i
@@ -215,60 +215,34 @@
 			<div class="kira-content">
 				<div id="kira-top-header"></div>
 				<div class="kira-main-content">
-					<section class="kira-archives">
+					<div class="kira-post">
+	<article class="kira-friend">
+		
+	</article>
+	
+        <div class="kira-post-footer">
+            
+	<link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css" />
+	<div id="gitalk"></div>
+	<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+	<script type="text/javascript">
+		var gitalk = new Gitalk({
+			clientID: '-id-',
+			clientSecret: '-key-',
+			id: 'friends',
+			repo: '-issue repo name-',
+			owner: '-your github username-',
+			admin: '-your github username-',
+			title: '',
+		});
+		gitalk.render('gitalk');
+	</script>
+
+
+        </div>
     
-    <div class="tagcloud kira-rainbow">
-        <a class="mdui-ripple -unordered list-link" href="/tags/blog/" rel="tag">blog<span class="mdui-ripple -unordered list-count">1</span></a><a class="mdui-ripple -unordered list-link" href="/tags/%E6%9D%82%E9%A1%B9/" rel="tag">杂项<span class="mdui-ripple -unordered list-count">2</span></a><a class="mdui-ripple -unordered list-link" href="/tags/%E8%AE%B0%E5%BD%95/" rel="tag">记录<span class="mdui-ripple -unordered list-count">2</span></a>
-    </div>
+</div>
 
-    <div class="categories kira-rainbow-fill">
-        
-            
-            
-                
-                 
-                     
-                
-            
-                
-                
-            
-
-            <a class="mdui-ripple" href="/categories/daily/">
-                <div class="bg" style="background-image:url('')"></div>
-                <h1>daily</h1>
-            </a>
-        
-            
-            
-                
-                
-            
-
-            <a class="mdui-ripple" href="/categories/progress/">
-                <div class="bg" style="background-image:url('')"></div>
-                <h1>progress</h1>
-            </a>
-        
-    </div>
-    
-    <article>
-        
-
-        
-            <h2>2022</h2>
-            <ul>
-            
-                <li><span>12-01</span><a href="/2022/12/01/%E4%B8%80%E4%BA%9B%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/" >一些日常记录</a></li>
-            
-                <li><span>11-29</span><a href="/2022/11/29/2022-12-01-Blog-Development-Notes/" >Blog Development Notes</a></li>
-            
-                <li><span>11-26</span><a href="/2022/11/26/hello-world/" >Hello World</a></li>
-            
-            </ul>
-        
-    </article>
-</section>
 				</div>
 			</div>
 			<div class="kira-right-column">
