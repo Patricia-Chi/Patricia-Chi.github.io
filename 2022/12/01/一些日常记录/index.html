@@ -329,6 +329,22 @@
 	</div>
 	
 	<div class="kira-post-footer">
+	<link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css" />
+	<div id="gitalk"></div>
+	<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+	<script type="text/javascript">
+		var gitalk = new Gitalk({
+			clientID: '59f85e28cbb3b367c220',
+			clientSecret: '67f97f137962e2bf334a7df5ce764cc0a841245a',
+			id: '一些日常记录',
+			repo: 'Blog-Comments',
+			owner: 'Patricia-Chi',
+			admin: 'Patricia-Chi',
+			title: 'comment',
+		});
+		gitalk.render('gitalk');
+	</script>
+
 </div>
 	
 </div>
