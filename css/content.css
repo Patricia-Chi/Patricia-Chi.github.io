@@ -4,7 +4,7 @@
   height: fit-content;
   flex-grow: 1;
   overflow: auto;
-  scrollbar-width: none;
+  scrollbar-width: 1;
   box-shadow: 0 0 1rem rgba(138,151,174,0.4);
   margin-top: 2vh;
   margin-bottom: 2vh;
@@ -73,5 +73,5 @@
   margin-block: 12px;
 }
 .kira-content::-webkit-scrollbar {
-  display: none;
+  display: 1;
 }

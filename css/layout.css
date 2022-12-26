@@ -1173,6 +1173,33 @@ article div.my-aplayer-container div[id^=aplayer-] div.aplayer-body div.aplayer-
 .kira-archives article > *:last-child {
   margin-bottom: 0;
 }
+::-webkit-scrollbar {
+  width: 10px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #a6a6a6;
+  border-radius: 1rem;
+  min-height: 60px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #757575;
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: #424242;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+[data-user-color-scheme='dark'] ::-webkit-scrollbar-thumb {
+  background-color: #687582;
+}
+[data-user-color-scheme='dark'] ::-webkit-scrollbar-thumb:hover {
+  background-color: #9da8b3;
+}
+[data-user-color-scheme='dark'] ::-webkit-scrollbar-thumb:active {
+  background-color: #c5d0db;
+}
 @media (max-width: 1180px) {
   .kira-sidebar {
     left: 0;
