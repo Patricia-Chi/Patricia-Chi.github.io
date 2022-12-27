@@ -16,7 +16,7 @@
 }
 @media (max-width: 1120px) {
   .kira-body::-webkit-scrollbar {
-    width: 0;
+    width: 1;
   }
 }
 @media (max-width: 1000px) {
@@ -81,7 +81,7 @@
     top: calc(-2vh - 80px);
   }
   body::-webkit-scrollbar {
-    width: 0;
+    width: 1;
   }
 }
 @media (max-width: 756px) {
